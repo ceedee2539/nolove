@@ -1,6 +1,18 @@
 const body = $request.body;
 $prefs.removeAllValues();
 
+if ($request.body.match(/org.skydomain.foodcamera/)) {
+    $prefs.setValueForKey("true", "koloro");
+};
+
+if ($request.body.match(/com.marconypresets/)) {
+    $prefs.setValueForKey("true", "lrpreset");
+};
+
+if ($request.body.match(/jp.co.radius.neplayer-lite/)) {
+    $prefs.setValueForKey("true", "neplayer");
+};
+
 if ($request.body.match(/com.axis.cameraxis/)) {
     $prefs.setValueForKey("true", "pwmngr");
 };

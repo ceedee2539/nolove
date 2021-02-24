@@ -5,6 +5,27 @@ if(url.endsWith("offerings")||url.endsWith("products")) {
 	$done({});
 } else {
 
+// mojo
+     if($prefs.valueForKey("mojo")=="true") {  
+		obj["subscriber"]["entitlements"]["pro"]={
+        "expires_date" : "2019-09-04T19:06:30Z",
+        "product_identifier" : "video.mojo.pro.yearly",
+        "purchase_date" : "2019-08-04T19:06:30Z"
+		};
+		
+		obj["subscriber"]["subscriptions"]["video.mojo.pro.yearly"]={
+        "is_sandbox" : false,
+        "period_type" : "trial",
+        "billing_issues_detected_at" : null,
+        "unsubscribe_detected_at" : null,
+        "expires_date" : "2099-09-04T19:06:30Z",
+        "original_purchase_date" : "2019-08-04T19:06:30Z",
+        "purchase_date" : "2019-08-04T19:06:30Z",
+        "store" : "app_store"
+		};
+          $prefs.removeAllValues();
+     };
+
 // darkroom
      if($prefs.valueForKey("drkrm")=="true") {  
 		obj["subscriber"]["entitlements"]["co.bergen.Darkroom.entitlement.allToolsAndFilters"]={
