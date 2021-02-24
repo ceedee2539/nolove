@@ -1,8 +1,7 @@
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];
 
-if(bundle_id == "org.skydomain.foodcamera")
-{
+if($prefs.valueForKey("klr")=="true") { 
 obj = {
   "status" : 0,
   "environment" : "Production",
@@ -78,8 +77,7 @@ obj = {
 };
 }
 
-if(bundle_id == "com.marconypresets")
-{
+if($prefs.valueForKey("lrprst")=="true") { 
 obj = {
   "status" : 0,
   "environment" : "Production",
