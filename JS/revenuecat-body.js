@@ -9,9 +9,10 @@ if(url.endsWith("products")) {
 // mojo
      if($prefs.valueForKey("mojo")=="true") {  
 		obj["subscriber"]["entitlements"]["pro"]={
-        "expires_date" : "2019-09-04T19:06:30Z",
+        "grace_period_expires_date" : null,
+        "purchase_date" : "2021-02-24T03:52:54Z",
         "product_identifier" : "video.mojo.pro.yearly",
-        "purchase_date" : "2019-08-04T19:06:30Z"
+        "expires_date" : "2021-02-27T03:52:54Z"
 		};
 		
 		obj["subscriber"]["subscriptions"]["video.mojo.pro.yearly"]={
@@ -19,9 +20,10 @@ if(url.endsWith("products")) {
         "period_type" : "trial",
         "billing_issues_detected_at" : null,
         "unsubscribe_detected_at" : null,
-        "expires_date" : "2099-09-04T19:06:30Z",
-        "original_purchase_date" : "2019-08-04T19:06:30Z",
-        "purchase_date" : "2019-08-04T19:06:30Z",
+        "expires_date" : "2099-02-27T03:52:54Z",
+        "grace_period_expires_date" : null,
+        "original_purchase_date" : "2021-02-24T03:52:55Z",
+        "purchase_date" : "2021-02-24T03:52:54Z",
         "store" : "app_store"
 		};
           $prefs.removeAllValues();
