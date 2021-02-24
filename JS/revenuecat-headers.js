@@ -3,7 +3,7 @@ const headers = $request.headers;
 $prefs.removeAllValues();
 
 // mojo
-if (headers["User-Agent"].indexOf("SKvideo") != -1) {
+if (headers["User-Agent"].indexOf("SKVideo") != -1) {
   $prefs.setValueForKey("true", "mojo");
 } else {
   $prefs.setValueForKey("false", "mojo");
