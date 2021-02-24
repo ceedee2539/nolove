@@ -1,7 +1,8 @@
 let obj=JSON.parse($response.body);
 let url=$request.url;
 
-if(url.endsWith("offerings")||url.endsWith("products")) {
+//if(url.endsWith("offerings")||url.endsWith("products")) {
+if(url.endsWith("products")) {
 	$done({});
 } else {
 
