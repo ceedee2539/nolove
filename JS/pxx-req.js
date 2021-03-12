@@ -1,6 +1,10 @@
 const body = $request.body;
 $prefs.removeAllValues();
 
+if ($request.body.match(/com.century.dreamdetective/)) {
+    $prefs.setValueForKey("true", "drdtt");
+};
+
 if ($request.body.match(/org.skydomain.foodcamera/)) {
     $prefs.setValueForKey("true", "koloro");
 };
