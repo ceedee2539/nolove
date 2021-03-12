@@ -11,6 +11,47 @@ if($prefs.valueForKey("lrprst")=="true") {
 
 //############# old method here #############
 var bundle_id = obj.receipt["bundle_id"];
+if(bundle_id == "com.focos.lifetime")
+{
+obj = {
+  "receipt" : {
+    "receipt_type" : "Production",
+    "app_item_id" : 1274938524,
+    "receipt_creation_date" : "2021-03-12 04:16:05 Etc/GMT",
+    "bundle_id" : "com.focos",
+    "original_purchase_date" : "2021-03-12 04:16:05 Etc/GMT",
+    "in_app" : [
+      {
+        "product_id" : "com.focos.lifetime",
+        "quantity" : "1",
+        "transaction_id" : "530000447973101",
+        "purchase_date_ms" : "1594478866000",
+        "original_purchase_date_pst" : "2020-07-11 07:47:46 America/Los_Angeles",
+        "purchase_date_pst" : "2020-07-11 07:47:46 America/Los_Angeles",
+        "original_purchase_date_ms" : "1594478866000",
+        "is_trial_period" : "false",
+        "original_purchase_date" : "2020-07-11 14:47:46 Etc/GMT",
+        "original_transaction_id" : "530000447973101",
+        "purchase_date" : "2019-07-11 14:47:46 Etc/GMT"
+      }
+    ],
+    "adam_id" : 1274938524,
+    "receipt_creation_date_pst" : "2021-03-11 20:16:05 America/Los_Angeles",
+    "request_date" : "2021-03-12 07:10:59 Etc/GMT",
+    "request_date_pst" : "2021-03-11 23:10:59 America/Los_Angeles",
+    "version_external_identifier" : 840281627,
+    "request_date_ms" : "1615533059009",
+    "original_purchase_date_pst" : "2021-03-11 20:16:05 America/Los_Angeles",
+    "application_version" : "6113",
+    "original_purchase_date_ms" : "1615522565000",
+    "receipt_creation_date_ms" : "1615522565000",
+    "original_application_version" : "6113",
+    "download_id" : 94065962097855
+  },
+  "status" : 0,
+  "environment" : "Production"
+};
+}
 if(bundle_id == "com.filmm.filmm")
 {
 obj = {
