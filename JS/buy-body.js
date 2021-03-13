@@ -11,7 +11,7 @@ if($prefs.valueForKey("lrprst")=="true") {
 
 //############# old method here #############
 var bundle_id = obj.receipt["bundle_id"];
-if(bundle_id == "com.focos.lifetime")
+if(bundle_id == "com.focos")
 {
 obj = {
   "receipt" : {
