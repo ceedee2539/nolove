@@ -1,6 +1,5 @@
-var obj = JSON.parse($response.body);
-obj = {
-    "data":{
+let obj = JSON.parse($response.body);
+obj["data"] = {
         "errorCode":0,
         "sandbox":0,
         "isTrialPeriod":0,
@@ -12,11 +11,7 @@ obj = {
         "appleVip":1,
         "operationVip":1,
         "giftVip":0
-    },
-    "status":200,
-    "message":"ok",
-    "serverTime":1598155311.9284,
-    "exetime":"4091140909000-4091140912000"
-};
+    };
+obj["status"] = 200;
+obj["message"] = "ok";
 $done({body: JSON.stringify(obj)});
-
