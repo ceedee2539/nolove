@@ -1,4 +1,5 @@
-var obj= {
+var obj = JSON.parse($response.body);
+obj = {
   "productId" : "com.readdle.PDFExpert5.subscription.year50",
   "receiptStatus" : "ok",
   "subscriptionExpirationDate" : "09:46 10/02/2021",
@@ -39,5 +40,3 @@ var obj= {
 };
 
 $done({body: JSON.stringify(obj)});
-
-//

@@ -1,4 +1,6 @@
-var obj= {
+var obj = JSON.parse($response.body);
+
+obj = {
   "productId" : "com.readdle.ReaddleDocsIPad.subscription.year50",
   "receiptStatus" : "ok",
   "subscriptionExpirationDate" : "15:42 02/03/2021",
@@ -36,5 +38,3 @@ var obj= {
   "isInGracePeriod" : false
 };
 $done({body: JSON.stringify(obj)});
-
-// Descriptions
