@@ -12,64 +12,6 @@ if($prefs.valueForKey("lrprst")=="true") {
 //############# old method here ############
 var bundle_id = obj.receipt["bundle_id"];
 
-if(bundle_id == "com.readdle.ReaddleDocsIPad") {
-obj = {
-  "receipt" : {
-    "receipt_type" : "Production",
-    "app_item_id" : 364901807,
-    "receipt_creation_date" : "2021-06-29 01:08:03 Etc/GMT",
-    "bundle_id" : "com.readdle.ReaddleDocsIPad",
-    "original_purchase_date" : "2020-07-16 04:42:24 Etc/GMT",
-    "in_app" : [
-
-    ],
-    "adam_id" : 364901807,
-    "receipt_creation_date_pst" : "2021-06-28 18:08:03 America/Los_Angeles",
-    "request_date" : "2021-07-08 02:17:24 Etc/GMT",
-    "request_date_pst" : "2021-07-07 19:17:24 America/Los_Angeles",
-    "version_external_identifier" : 842450348,
-    "request_date_ms" : "1625710644500",
-    "original_purchase_date_pst" : "2020-07-15 21:42:24 America/Los_Angeles",
-    "application_version" : "7.8.3.789",
-    "original_purchase_date_ms" : "1594874544000",
-    "receipt_creation_date_ms" : "1624928883000",
-    "original_application_version" : "7.2.5.718",
-    "download_id" : 94057866274416
-  },
-  "status" : 0,
-  "environment" : "Production"
-};
-}
-
-if(bundle_id == "com.readdle.PDFExpert5") {
-obj = {
-  "receipt" : {
-    "receipt_type" : "Production",
-    "app_item_id" : 743974925,
-    "receipt_creation_date" : "2021-07-08 02:12:42 Etc/GMT",
-    "bundle_id" : "com.readdle.PDFExpert5",
-    "original_purchase_date" : "2020-11-01 15:52:58 Etc/GMT",
-    "in_app" : [
-
-    ],
-    "adam_id" : 743974925,
-    "receipt_creation_date_pst" : "2021-07-07 19:12:42 America/Los_Angeles",
-    "request_date" : "2021-07-08 02:20:32 Etc/GMT",
-    "request_date_pst" : "2021-07-07 19:20:32 America/Los_Angeles",
-    "version_external_identifier" : 842380661,
-    "request_date_ms" : "1625710832441",
-    "original_purchase_date_pst" : "2020-11-01 07:52:58 America/Los_Angeles",
-    "application_version" : "7.4.22.896",
-    "original_purchase_date_ms" : "1604245978000",
-    "receipt_creation_date_ms" : "1625710362000",
-    "original_application_version" : "7.4.4.826",
-    "download_id" : 94064972447731
-  },
-  "status" : 0,
-  "environment" : "Production"
-};
-}
-
 if(bundle_id == "com.focos") {
 obj = {
   "receipt" : {
