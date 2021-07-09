@@ -14,7 +14,7 @@ obj["memberships"] = [
 ];
 
 body = JSON.stringify(obj);
-$done({body});*/
+$done({body});
 
 var obj = JSON.parse($response.body);
 obj["memberships"] = [
@@ -29,3 +29,8 @@ obj["memberships"] = [
     }
 ];
 $done({body: JSON.stringify(obj)});
+*/
+
+body = $response.body.replace(/preview/g, "free").replace(/view/g, "unlimited").replace(/true/g, "false");
+$done({body});
+
