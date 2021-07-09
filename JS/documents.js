@@ -1,40 +1,31 @@
 var obj = {
-  "productId" : "com.readdle.PDFExpert5.subscription.year50",
-  "receiptStatus" : "ok",
-  "subscriptionExpirationDate" : "09:46 10/02/2099",
-  "isPDFExpert6User" : false,
+  "originalTransactionId" : 540000746783665,
   "inAppStates" : [
     {
-      "receiptStatus" : "ok",
-      "productId" : "com.readdle.PDFExpert5.subscription.year50",
-      "isInGracePeriod" : false,
-      "subscriptionAutoRenewStatus" : "autoRenewOn",
-      "originalTransactionId" : 70000951058197,
-      "isEligibleForIntroPeriod" : false,
-      "subscriptionExpirationDate" : "09:46 10/02/2099",
-      "type" : "subscription",
-      "isInBillingRetryPeriod" : false,
+      "originalTransactionId" : 540000746783665,
+      "productId" : "com.readdle.ReaddleDocsIPad.subscription.month12new",
       "subscriptionState" : "trial",
-      "productName" : "subscription"
+      "productName" : "subscription",
+      "subscriptionExpirationDate" : "04:52 16/07/2099",
+      "isEligibleForIntroPeriod" : false,
+      "subscriptionAutoRenewStatus" : "autoRenewOn",
+      "type" : "subscription",
+      "isInGracePeriod" : false,
+      "isInBillingRetryPeriod" : false,
+      "entitlements" : [
+
+      ]
     }
   ],
-  "isEligibleForIntroPeriod" : false,
-  "originalTransactionId" : 70000951058197,
+  "chargingPlatform" : "iOS AppStore",
+  "receiptStatus" : "ok",
+  "bundleId" : "com.readdle.ReaddleDocsIPad",
+  "receiptId" : 1594874544000,
   "statisticsInfo" : {
     "events" : [
 
     ]
-  },
-  "isInBillingRetryPeriod" : false,
-  "type" : "subscription",
-  "inAppPurchased" : [
-    "com.readdle.PDFExpert5.subscription.year50"
-  ],
-  "bundleId" : "com.readdle.PDFExpert5",
-  "receiptId" : 1612345169000,
-  "chargingPlatform" : "iOS AppStore",
-  "subscriptionState" : "trial",
-  "subscriptionAutoRenewStatus" : "autoRenewOn",
-  "isInGracePeriod" : false
+  }
 };
+
 $done({body: JSON.stringify(obj)});
