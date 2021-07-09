@@ -1,8 +1,7 @@
-var obj = JSON.parse($response.body);
-obj = {
+var obj = {
   "productId" : "com.readdle.PDFExpert5.subscription.year50",
   "receiptStatus" : "ok",
-  "subscriptionExpirationDate" : "09:46 10/02/2021",
+  "subscriptionExpirationDate" : "09:46 10/02/2099",
   "isPDFExpert6User" : false,
   "inAppStates" : [
     {
@@ -12,7 +11,7 @@ obj = {
       "subscriptionAutoRenewStatus" : "autoRenewOn",
       "originalTransactionId" : 70000951058197,
       "isEligibleForIntroPeriod" : false,
-      "subscriptionExpirationDate" : "09:46 10/02/2021",
+      "subscriptionExpirationDate" : "09:46 10/02/2099",
       "type" : "subscription",
       "isInBillingRetryPeriod" : false,
       "subscriptionState" : "trial",

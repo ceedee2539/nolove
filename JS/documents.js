@@ -1,37 +1,37 @@
-var obj = JSON.parse($response.body);
-
-obj = {
-  "productId" : "com.readdle.ReaddleDocsIPad.subscription.year50",
+var obj = {
+  "productId" : "com.readdle.PDFExpert5.subscription.year50",
   "receiptStatus" : "ok",
-  "subscriptionExpirationDate" : "15:42 02/03/2021",
+  "subscriptionExpirationDate" : "09:46 10/02/2099",
+  "isPDFExpert6User" : false,
   "inAppStates" : [
     {
       "receiptStatus" : "ok",
-      "productId" : "com.readdle.ReaddleDocsIPad.subscription.year50",
+      "productId" : "com.readdle.PDFExpert5.subscription.year50",
       "isInGracePeriod" : false,
       "subscriptionAutoRenewStatus" : "autoRenewOn",
-      "originalTransactionId" : 70000967969999,
+      "originalTransactionId" : 70000951058197,
       "isEligibleForIntroPeriod" : false,
-      "subscriptionExpirationDate" : "15:42 02/03/2021",
+      "subscriptionExpirationDate" : "09:46 10/02/2099",
       "type" : "subscription",
       "isInBillingRetryPeriod" : false,
       "subscriptionState" : "trial",
       "productName" : "subscription"
     }
   ],
-  "isDocuments6User" : false,
   "isEligibleForIntroPeriod" : false,
-  "originalTransactionId" : 70000967969999,
-  "statisticsInfo" : [
+  "originalTransactionId" : 70000951058197,
+  "statisticsInfo" : {
+    "events" : [
 
-  ],
+    ]
+  },
   "isInBillingRetryPeriod" : false,
   "type" : "subscription",
   "inAppPurchased" : [
-    "com.readdle.ReaddleDocsIPad.subscription.year50"
+    "com.readdle.PDFExpert5.subscription.year50"
   ],
-  "bundleId" : "com.readdle.ReaddleDocsIPad",
-  "receiptId" : 1599743664000,
+  "bundleId" : "com.readdle.PDFExpert5",
+  "receiptId" : 1612345169000,
   "chargingPlatform" : "iOS AppStore",
   "subscriptionState" : "trial",
   "subscriptionAutoRenewStatus" : "autoRenewOn",
